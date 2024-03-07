@@ -1,0 +1,20 @@
+{
+  "name": "palms_pw_ts_poc",
+  "version": "1.0.0",
+  "description": "PALMS Playwright Typescript Proof of Concept",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "allure-playwright": "2.12.2",
+    "@playwright/test": "1.41.2",
+    "@types/node": "^20.11.20",
+    "@types/lodash": "4.14.202",
+    "dotenv": "16.4.5",
+    "lodash": "4.17.21"
+  }
+}

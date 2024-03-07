@@ -1,0 +1,294 @@
+{
+  "numberOfAdminRoles": [
+    {
+      "roleId": "f6224f43-cd73-4fb8-a71d-c092734dcd94",
+      "count": 12
+    },
+    {
+      "roleId": "f0995ccb-9769-ee11-9937-00224892cc07",
+      "count": 9
+    },
+    {
+      "roleId": "f9861c75-8c6d-4794-723f-08dba84d6603",
+      "count": 14
+    }
+  ],
+  "userRoles": [
+    {
+      "userRoleId": "63f886d0-dc93-4426-7ec7-08dbea4041d7",
+      "roleId": "b08bf871-1ae2-4293-5817-08dbbe6706a1",
+      "sortOrder": 0,
+      "roleName": "Officer",
+      "roleDescription": "",
+      "roleTags": "regAUSpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": null,
+      "roleId": "ce3c5215-a9b8-4948-cbb2-08dbc0a54700",
+      "sortOrder": 0,
+      "roleName": "Suspended",
+      "roleDescription": "",
+      "roleTags": "regAUSpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": null,
+      "roleId": "acb8c4c4-1c1d-422c-c154-08dbc4955ae0",
+      "sortOrder": 0,
+      "roleName": "Automation role",
+      "roleDescription": "",
+      "roleTags": "regAUSpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": null,
+      "roleId": "f2995ccb-9769-ee11-9937-00224892cc07",
+      "sortOrder": 0,
+      "roleName": "Officer",
+      "roleDescription": null,
+      "roleTags": "regCANpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": null,
+      "roleId": "1b84f254-9629-4ce2-a051-08dbceb00434",
+      "sortOrder": 0,
+      "roleName": "Supervisor",
+      "roleDescription": "",
+      "roleTags": "regCANpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": "c66faf9f-f836-405d-7ec8-08dbea4041d7",
+      "roleId": "6f82214f-805e-4bfd-a050-08dbceb00434",
+      "sortOrder": 0,
+      "roleName": "Supervisor",
+      "roleDescription": "",
+      "roleTags": "regAUSpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": null,
+      "roleId": "5b2b05e8-2004-4413-bbd2-08dbfc51d28e",
+      "sortOrder": 0,
+      "roleName": "Senior officer",
+      "roleDescription": "",
+      "roleTags": "regAUSpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": null,
+      "roleId": "5b6c03df-35f6-4412-bbd3-08dbfc51d28e",
+      "sortOrder": 0,
+      "roleName": "Senior officer",
+      "roleDescription": "",
+      "roleTags": "regCANpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": "1c1fdaea-77d9-4569-a16b-08dbfc48c6d3",
+      "roleId": "134cecc7-cda6-42d9-bbd6-08dbfc51d28e",
+      "sortOrder": 0,
+      "roleName": "Testing",
+      "roleDescription": "",
+      "roleTags": "regAUSpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": null,
+      "roleId": "2b1c589b-2e36-44d9-bbd7-08dbfc51d28e",
+      "sortOrder": 0,
+      "roleName": "Testing",
+      "roleDescription": "",
+      "roleTags": "regCANpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": null,
+      "roleId": "5e3ad762-5e2f-4e70-5e6b-08dc0db79799",
+      "sortOrder": 0,
+      "roleName": "Test name",
+      "roleDescription": "",
+      "roleTags": "regAUSpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": null,
+      "roleId": "7da8db5a-7d7b-446c-5e6c-08dc0db79799",
+      "sortOrder": 0,
+      "roleName": "Test name",
+      "roleDescription": "",
+      "roleTags": "regCANpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": null,
+      "roleId": "ef995ccb-9769-ee11-9937-00224892cc07",
+      "sortOrder": 1,
+      "roleName": "Guest",
+      "roleDescription": null,
+      "roleTags": "regCANpgIRO",
+      "isRoleDefault": true,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": "7319c1c5-057a-47c8-3d8b-08dbad9f7bc6",
+      "roleId": "cc494af1-4500-46d3-84df-8a6709f64ad0",
+      "sortOrder": 1,
+      "roleName": "Guest",
+      "roleDescription": null,
+      "roleTags": "regAUSpgIRO",
+      "isRoleDefault": true,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": null,
+      "roleId": "ee995ccb-9769-ee11-9937-00224892cc07",
+      "sortOrder": 2,
+      "roleName": "Requestor",
+      "roleDescription": null,
+      "roleTags": "regCANpgIRO",
+      "isRoleDefault": true,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": "563e3b46-30bb-ee11-bea1-00224892c87c",
+      "roleId": "90c65ef6-778e-468c-a37d-064c1afcf6b0",
+      "sortOrder": 2,
+      "roleName": "Requestor",
+      "roleDescription": null,
+      "roleTags": "regAUSpgIRO",
+      "isRoleDefault": true,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": "573e3b46-30bb-ee11-bea1-00224892c87c",
+      "roleId": "90c65ef6-778e-468c-a37d-064c1afcf6b0",
+      "sortOrder": 2,
+      "roleName": "Requestor",
+      "roleDescription": null,
+      "roleTags": "regAUSpgIRO",
+      "isRoleDefault": true,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": "630bbe1d-50b0-4477-4b8e-08dbe495054d",
+      "roleId": "78cdfd30-048d-4bc7-9213-ca86e63e2d92",
+      "sortOrder": 3,
+      "roleName": "Arranger",
+      "roleDescription": null,
+      "roleTags": "regAUSpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": "7109d65e-8595-47b1-627a-08dbfaca0383",
+      "roleId": "12345678-048d-4bc7-9213-ca86e63e2d92",
+      "sortOrder": 5,
+      "roleName": "Demand owner",
+      "roleDescription": null,
+      "roleTags": "regAUSpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": null,
+      "roleId": "f1995ccb-9769-ee11-9937-00224892cc07",
+      "sortOrder": 5,
+      "roleName": "Demand owner",
+      "roleDescription": null,
+      "roleTags": "regCANpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": null,
+      "roleId": "6eb8abfa-776d-ee11-9937-00224892cc07",
+      "sortOrder": 6,
+      "roleName": "Arranger",
+      "roleDescription": null,
+      "roleTags": "regCANpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": null,
+      "roleId": "8185d395-b26b-ee11-9937-00224892cc07",
+      "sortOrder": 6,
+      "roleName": "Suspended",
+      "roleDescription": null,
+      "roleTags": "regCANpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": false,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": null,
+      "roleId": "f0995ccb-9769-ee11-9937-00224892cc07",
+      "sortOrder": 100,
+      "roleName": "Regional administrator",
+      "roleDescription": null,
+      "roleTags": "regCANpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": true,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": "3d39a93e-c622-4227-e1c0-08dbcde1110b",
+      "roleId": "f6224f43-cd73-4fb8-a71d-c092734dcd94",
+      "sortOrder": 100,
+      "roleName": "Regional administrator",
+      "roleDescription": null,
+      "roleTags": "regAUSpgIRO",
+      "isRoleDefault": false,
+      "isRoleAdmin": true,
+      "isAssigned": false
+    },
+    {
+      "userRoleId": "0ede9be4-91fb-41ef-97f4-08dbeef0b52d",
+      "roleId": "f9861c75-8c6d-4794-723f-08dba84d6603",
+      "sortOrder": 101,
+      "roleName": "Global administrator",
+      "roleDescription": "",
+      "roleTags": "regGLOBAL",
+      "isRoleDefault": false,
+      "isRoleAdmin": true,
+      "isAssigned": false
+    }
+  ],
+  "isGlobalAdmin": false
+}

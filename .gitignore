@@ -1,0 +1,8 @@
+.vs
+.env
+node_modules
+test-results/
+allure-results/
+allure-report/
+playwright-report/
+tests/ui/utils/.auth/*.json

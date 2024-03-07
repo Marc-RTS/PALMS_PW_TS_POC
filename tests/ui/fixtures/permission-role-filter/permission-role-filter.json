@@ -1,0 +1,737 @@
+[
+  {
+    "hierarchyId": "b20a1782-fb4d-ee11-9937-00224892c979",
+    "objectTypeId": null,
+    "domain": "Administration",
+    "page": null,
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "bae9fe09-ef51-ee11-9937-00224892c979",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": null,
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "a5edf102-d5c3-ee11-85f7-002248934e3b",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Officer Workspace",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Global administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "0f03f2f9-f2b0-ee11-bea1-00224892c87c",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Tap Requests",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "f8482fc1-75af-ee11-8925-00224892cd02",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "TAP Landing Page",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      },
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "32e83046-ac6e-4f25-b67b-3b9300f3363f",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Tap Ticket",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "f6d9b950-b798-ee11-8925-00224892cd02",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Travel Accommodation Plan Request",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Global administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "2b884cf8-1a88-ee11-8925-00224892c04b",
+    "objectTypeId": null,
+    "domain": "Administration",
+    "page": "View User History",
+    "attributeName": "Date of Birth",
+    "attributeType": "Function",
+    "permissions": [
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "2a884cf8-1a88-ee11-8925-00224892c04b",
+    "objectTypeId": null,
+    "domain": "Administration",
+    "page": "View User History",
+    "attributeName": "Day of Birth",
+    "attributeType": "Function",
+    "permissions": []
+  },
+  {
+    "hierarchyId": "42d61ce0-1a88-ee11-8925-00224892c04b",
+    "objectTypeId": null,
+    "domain": "Administration",
+    "page": "Search User Profile",
+    "attributeName": "Date of Birth",
+    "attributeType": "Function",
+    "permissions": [
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "41d61ce0-1a88-ee11-8925-00224892c04b",
+    "objectTypeId": null,
+    "domain": "Administration",
+    "page": "Search User Profile",
+    "attributeName": "Day of Birth",
+    "attributeType": "Function",
+    "permissions": []
+  },
+  {
+    "hierarchyId": "0c8e5cb6-1a88-ee11-8925-00224892c04b",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Search Customer Profile",
+    "attributeName": "Date of Birth",
+    "attributeType": "Function",
+    "permissions": [
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "0b8e5cb6-1a88-ee11-8925-00224892c04b",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Search Customer Profile",
+    "attributeName": "Day of Birth",
+    "attributeType": "Function",
+    "permissions": [
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "c590fd2c-7087-ee11-8925-00224892c04b",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "My Profile Dialog",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "2500a930-f984-ee11-8925-00224892c04b",
+    "objectTypeId": null,
+    "domain": "Administration",
+    "page": "Manage User Roles",
+    "attributeName": "Date of Birth",
+    "attributeType": "Function",
+    "permissions": [
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "2400a930-f984-ee11-8925-00224892c04b",
+    "objectTypeId": null,
+    "domain": "Administration",
+    "page": "Manage User Roles",
+    "attributeName": "Day of Birth",
+    "attributeType": "Function",
+    "permissions": []
+  },
+  {
+    "hierarchyId": "2a818f6c-3a84-ee11-8925-00224892c04b",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Customer",
+    "attributeName": "Search Result Hyperlink",
+    "attributeType": "Field",
+    "permissions": [
+      {
+        "key": "Global administrator",
+        "value": "W"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "W"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "W"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "8552694c-3a84-ee11-8925-00224892c04b",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Customer",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "0f2aba17-847f-ee11-8925-00224892c04b",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Customer Profile",
+    "attributeName": "Date of Birth",
+    "attributeType": "Function",
+    "permissions": [
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "0e2aba17-847f-ee11-8925-00224892c04b",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Customer Profile",
+    "attributeName": "Day of Birth",
+    "attributeType": "Function",
+    "permissions": [
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "f84c8acf-2a72-ee11-b004-00224892c429",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "My Profile Dialog",
+    "attributeName": "My Profile Dialog Hyperlink",
+    "attributeType": "Function",
+    "permissions": [
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "cb26cccf-1464-ee11-9937-00224892cc07",
+    "objectTypeId": null,
+    "domain": "Administration",
+    "page": "Search User Profile",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "3f76f565-745e-ee11-9937-00224892cc07",
+    "objectTypeId": null,
+    "domain": "Administration",
+    "page": "View User History",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "68ef1af9-5e5e-ee11-9937-00224892cc07",
+    "objectTypeId": null,
+    "domain": "Administration",
+    "page": "Manage Reference Data",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "16e11348-ef51-ee11-9937-00224892c979",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Audit",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      },
+      {
+        "key": "Global administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "512e337b-dc4d-ee11-9937-00224892c979",
+    "objectTypeId": null,
+    "domain": "Administration",
+    "page": "Manage Role Permissions",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "83000272-dc4d-ee11-9937-00224892c979",
+    "objectTypeId": null,
+    "domain": "Administration",
+    "page": "Manage Roles",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "82000272-dc4d-ee11-9937-00224892c979",
+    "objectTypeId": null,
+    "domain": "Administration",
+    "page": "Manage User Roles",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "b25e9966-dc4d-ee11-9937-00224892c979",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Create Local Profile",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Global administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "b15e9966-dc4d-ee11-9937-00224892c979",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Book Travel",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Global administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "ed05375c-dc4d-ee11-9937-00224892c979",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Customer Profile",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "ec05375c-dc4d-ee11-9937-00224892c979",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Search Customer Profile",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      }
+    ]
+  },
+  {
+    "hierarchyId": "631c1a25-fbf9-ed11-a9b9-000d3ad0c2b4",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Search Customer Profile",
+    "attributeName": "Search Result Hyperlink",
+    "attributeType": "Field",
+    "permissions": [
+      {
+        "key": "Global administrator",
+        "value": "W"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "W"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "W"
+      }
+    ]
+  }
+]

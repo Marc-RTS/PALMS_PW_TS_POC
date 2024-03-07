@@ -1,0 +1,68 @@
+[
+  {
+    "hierarchyId": "16e11348-ef51-ee11-9937-00224892c979",
+    "objectTypeId": null,
+    "domain": "Customer",
+    "page": "Audit",
+    "attributeName": null,
+    "attributeType": "Page",
+    "permissions": [
+      {
+        "key": "Arranger",
+        "value": "E"
+      },
+      {
+        "key": "Automation role",
+        "value": "NA"
+      },
+      {
+        "key": "Demand owner",
+        "value": "NA"
+      },
+      {
+        "key": "Guest",
+        "value": "NA"
+      },
+      {
+        "key": "Officer",
+        "value": "NA"
+      },
+      {
+        "key": "Requestor",
+        "value": "NA"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Regional administrator",
+        "value": "E"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      },
+      {
+        "key": "Suspended",
+        "value": "NA"
+      },
+      {
+        "key": "Senior officer",
+        "value": "NA"
+      },
+      {
+        "key": "Global administrator",
+        "value": "E"
+      },
+      {
+        "key": "Arranger",
+        "value": "E"
+      },
+      {
+        "key": "Demand owner",
+        "value": "E"
+      }
+    ]
+  }
+]

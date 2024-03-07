@@ -1,0 +1,14 @@
+export { default as HomePage } from './home';
+export { default as LoginPage } from './login';
+export { default as UserPortalPage } from './user-portal';
+export { default as AdministratorPortalPage } from './administrator-portal';
+export { default as ManageRolesPage } from './manage-roles';
+export { default as ManageUserRolesPage } from './manage-user-roles';
+export { default as ManageReferenceDataPage } from './manage-reference-data';
+export { default as ManageRolePermissionPage } from './manage-role-permission';
+export { default as OficerWorkspacePage } from './officer-workspace';
+export { default as QueueManagementPage } from './queue-management';
+export { default as SearchCustomerProfilePage } from './search-customer-profile';
+export { default as SearchUserProfilePage } from './search-user-profile';
+export { default as TapLandingPage } from './tap-landing';
+export { default as ViewUserHistoryPage } from './view-user-history';
