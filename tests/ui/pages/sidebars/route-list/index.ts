@@ -15,6 +15,7 @@ export default class RouteListSidebar extends BasePage {
   readonly searchCustomerProfile: Locator;
   readonly tapLanding: Locator;
   readonly tapRequestQueue: Locator;
+  readonly administration: Locator;
 
   constructor(page: Page) {
     super(page);
@@ -27,27 +28,34 @@ export default class RouteListSidebar extends BasePage {
     this.searchCustomerProfile = this.page.getByTestId('sidebar-SearchCustomerProfile');
     this.tapLanding = this.page.getByTestId('sidebar-TapLanding');
     this.tapRequestQueue = this.page.getByTestId('sidebar-TapRequestQueue');
+    this.administration = this.page.getByTestId('sidebar-Administration');
   }
 
   async init(): Promise<this> {
     return this;
   }
-
+  async clickAdministration() {
+    await this.administration.click();
+  }
   async clickSearchUserProfilePage(): Promise<SearchUserProfilePage> {
+    await this.clickAdministration();
     await this.searchUserProfile.click();
     return new SearchUserProfilePage(this.page);
   }
   async clickManageUserRolesPage(): Promise<ManageUserRolesPage> {
+    await this.clickAdministration();
     await this.manageUserRoles.click();
     return new ManageUserRolesPage(this.page);
   }
 
   async clickManageRolePermissionsPage(): Promise<ManageRolePermissionPage> {
+    await this.clickAdministration();
     await this.manageRolePermissions.click();
     return new ManageRolePermissionPage(this.page);
   }
 
   async clickManageRolesPage(): Promise<ManageRolesPage> {
+    await this.clickAdministration();
     await this.manageRoles.click();
     return new ManageRolesPage(this.page);
   }

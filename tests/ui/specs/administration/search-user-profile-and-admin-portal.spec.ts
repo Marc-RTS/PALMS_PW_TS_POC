@@ -27,8 +27,8 @@ test.describe('Search User Profile And Administrator Portal @admin', () => {
     const sapPersonId = `${userFind.results[0].sapPersonId}`;
     await mock.getUserFind(userFind);
 
-    const profilePopper = await userPortalPage.clickAvatar();
-    expect(await profilePopper.getName()).toEqual(`${fxUser.generateAusRegionalUser().firstName} ${fxUser.generateAusRegionalUser().lastName}`);
+    const profilePopper = await userPortalPage.clickProfilePopperArrowDown();
+    expect(await profilePopper.isNameVisiable(`${fxUser.generateAusRegionalUser().firstName} ${fxUser.generateAusRegionalUser().lastName}`)).toBeTruthy();
 
     const adminPortalPage = await profilePopper.clickAdministration();
     expect(await adminPortalPage.getTitle()).toEqual(AUS_IRONORE_ADMINPORTAL_TITLE);
@@ -65,8 +65,10 @@ test.describe('Search User Profile And Administrator Portal @admin', () => {
     const userFind = fxUserFind.generateDefaultUserFind();
     const sapPersonId = `${userFind.results[0].sapPersonId}`;
     await mock.getUserFind(userFind);
-    const profilePopper = await userPortalPage.clickAvatar();
-    expect(await profilePopper.getName()).toEqual(`${fxUser.generateAusRegionalUser().firstName} ${fxUser.generateAusRegionalUser().lastName}`);
+    const profilePopper = await userPortalPage.clickProfilePopperArrowDown();
+    // expect(await profilePopper.getName()).toEqual(`${fxUser.generateAusRegionalUser().firstName} ${fxUser.generateAusRegionalUser().lastName}`);
+    expect(await profilePopper.isNameVisiable(`${fxUser.generateAusRegionalUser().firstName} ${fxUser.generateAusRegionalUser().lastName}`)).toBeTruthy();
+
     const adminPortalPage = await profilePopper.clickAdministration();
     expect(await adminPortalPage.getTitle()).toEqual(AUS_IRONORE_ADMINPORTAL_TITLE);
     const searchUserProfilePage = await userPortalPage.navigateToSearchUserProfilePage();

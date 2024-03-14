@@ -6,7 +6,7 @@ import UserPortalPage from '../../user-portal';
 export default class ProfilePopper extends BasePage {
   readonly avatar: Locator;
   readonly name: Locator;
-  readonly nmail: Locator;
+  readonly email: Locator;
   readonly viewAccount: Locator;
   readonly switchView: Locator;
   readonly signOut: Locator;
@@ -16,7 +16,7 @@ export default class ProfilePopper extends BasePage {
     super(page);
     this.avatar = page.getByTestId('appbar-profile-popper-avatar');
     this.name = page.getByTestId('appbar-profile-popper-name');
-    this.nmail = page.getByTestId('appbar-profile-popper-business-email');
+    this.email = page.getByTestId('appbar-profile-popper-business-email');
     this.viewAccount = page.getByTestId('appbar-profile-popper-view-account');
     this.switchView = page.getByTestId('appbar-profile-popper-switch-view');
     this.signOut = page.getByTestId('appbar-profile-popper-sign-out');
@@ -40,7 +40,7 @@ export default class ProfilePopper extends BasePage {
   async isSwitchViewHidden() {
     return await this.switchView.isHidden();
   }
-  async getName() {
-    return this.name.textContent();
+  async isNameVisiable(fullname: string) {
+    return await this.page.getByRole('heading', { name: `${fullname}` }).isVisible();
   }
 }

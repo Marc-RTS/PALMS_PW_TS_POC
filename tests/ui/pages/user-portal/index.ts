@@ -18,6 +18,7 @@ export default class UserPortalPage extends BasePage {
   readonly logoPalms: Locator;
   readonly sideMenuSearchCustomerProfile: Locator;
   readonly profilePopper: Locator;
+  readonly keyboardArrowDownIcon: Locator;
 
   constructor(page: Page) {
     super(page);
@@ -27,12 +28,13 @@ export default class UserPortalPage extends BasePage {
     this.bannerPalms = this.page.getByRole('banner');
     this.txtboxUserSapId = this.page.getByTestId('home-set-current-user-input-inner');
     this.btnSetUser = this.page.getByTestId('home-set-current-user-button');
-    this.btnMenuSideBar = this.page.getByTestId('appbar-open-sidebar');
+    this.btnMenuSideBar = this.page.getByTestId('MenuIcon');
     this.btnAvatar = this.page.getByTestId('appbar-avatar');
     this.contentContainer = this.page.locator('#content-container');
     this.logoPalms = this.page.getByRole('img', { name: 'palms logo' });
     this.sideMenuSearchCustomerProfile = this.page.getByTestId('sidebar-SearchCustomerProfile');
     this.profilePopper = this.page.getByTestId('appbar-profile-popper');
+    this.keyboardArrowDownIcon = this.page.getByTestId('KeyboardArrowDownIcon');
   }
 
   async init(): Promise<this> {
@@ -50,14 +52,18 @@ export default class UserPortalPage extends BasePage {
     await this.btnAvatar.click();
     return new ProfilePopper(this.page);
   }
+  async clickProfilePopperArrowDown() {
+    await this.keyboardArrowDownIcon.click();
+    return new ProfilePopper(this.page);
+  }
 
   async navigateToAdminPortalPage() {
     let profilePopper = new ProfilePopper(this.page);
     if (!(await this.profilePopper.isVisible({ timeout: 2000 }))) {
-      await this.clickAvatar();
+      await this.clickProfilePopperArrowDown();
     }
 
-    if ((await profilePopper.switchView.textContent()) == 'Administration') {
+    if ((await profilePopper.switchView.textContent()) == 'Admin settings') {
       return await profilePopper.clickAdministration();
     }
     return new AdministratorPortalPage(this.page);
@@ -67,7 +73,7 @@ export default class UserPortalPage extends BasePage {
     // const profilePopper = await this.clickAvatar();
     let profilePopper = new ProfilePopper(this.page);
     if (!(await this.profilePopper.isVisible({ timeout: 2000 }))) {
-      await this.clickAvatar();
+      await this.clickProfilePopperArrowDown();
     }
     if ((await profilePopper.switchView.textContent()) == 'Customer') {
       return await profilePopper.clickCustomer();
